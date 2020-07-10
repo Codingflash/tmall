@@ -245,15 +245,15 @@ em{
 
 /* banner结束 */
 /* middle开始 */
+
 .middle{
-    width: 100%;
-    height: 250px;
-    background: rgb(247, 242, 242);
+    width: 1519px;
+    height: 50px;
+    /* background: rgb(247, 242, 242); */
 }
 .middle-top{
     width: 1260px;
-    height: 62px;
-    
+    height: 353px;
     padding: 24px 30px 0 0;
 }
 .top1{
@@ -333,18 +333,20 @@ em{
     height: 700px;
     margin: 15px auto 0;
 }
-.middle li{
+.middle1 li{
     display: block;
-    width: 115px;
+    width: 113px;
     height: 89px;
     padding: 0 5px;
     float: left;
+    border: 1px solid rgb(235, 230, 230);
 }
-.middle li img{
+.middle1 li img{
     width: 115px;
     height: 89px;
+    cursor: pointer;
 }
-.middle li a{
+.middle1 li a{
     display: block;
     width: 115px;
     height: 89px;
@@ -353,6 +355,26 @@ em{
     text-align: center;
     line-height: 89px;
 }
+.market{
+    width: 1260px;
+    height: 665px;
+}
+.img1{
+    vertical-align: middle;
+    width: 214px;
+    height: 25px;
+}
+.maotai{
+    width: 235px;
+    height: 618px;
+    position: relative;
+
+}
+.maotai img{
+    width: 235px;
+    height: 618px;
+}
+.maotai 
 /* middle结束 */
 
 
@@ -370,11 +392,13 @@ em{
     width: 1519px;
     height: 350px;
     padding-top: 100px;
+    margin-top: 900px;
 }
 .dibu1-top{
     width: 1190px;
     height: 100px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .dibu1-top a{
     float: left;
@@ -449,7 +473,7 @@ em{
     height: 250px;
     background: #000;
     border-top: 2px solid red;
-
+    
 }
 .dibu2-container{
     width: 1190px;
